@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'D-DIN';
+    src: url('./assets/D-DIN.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    src: url('./assets/D-DIN-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'D-DIN', sans-serif;
+}
+
+
+body{
+    height: 110vh;
+    background-image: url(assets/mission1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+body > .mission1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: end;
+    height: 81%;
+    width: 500px;
+    color: white;
+    padding: 0 0 82px 40px;
+    text-transform: uppercase;
+}
+
+.mission1 p{
+    font-size: 20px;
+}
+
+.mission1 h1{
+    text-align: left;
+    font-size: 48px;
+    padding: 15px 0 20px 0;
+}
+
+.mission1 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mission1 > button{
+    width: 150px;
+    height: 50px;
+    border-color:white;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+.logoSpaceX > img{
+    width: 210px;
+    height: 28px;
+
+}
+
+.navtitles{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navtitles li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'D-Din',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menutoggle_shop{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menutoggle_shop img{
+    display: flex;
+    align-items: center;
+    width: 20px;
+
+}
+
+.menutoggle_shop li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'D-Din',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menutoggle_shop li{
+    list-style: none;
+}
+
+.mission2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;
+    background-image: url(assets/mission2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    text-transform: uppercase;
+}
+
+.mission2 p{
+    font-size: 20px;
+}
+
+.mission2 h1{
+    text-align: left;
+    font-size: 48px;
+    padding: 15px 0 20px 0;
+}
+
+.mission2 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.mission2 > button{
+    width: 150px;
+    height: 50px;
+    border-color:white;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mission3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;
+    background-image: url(assets/mission3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+}
+
+.mission3 p{
+    font-size: 20px;
+}
+
+.mission3 h1{
+    text-align: left;
+    font-size: 48px;
+    padding: 15px 0 20px 0;
+}
+
+.mission3 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mission3 > button{
+    width: 150px;
+    height: 50px;
+    border-color:white;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mission4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;
+    background-image: url(assets/mission4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    text-transform: uppercase;
+}
+
+.mission4 p{
+    font-size: 20px;
+}
+
+.mission4 h1{
+    text-align: left;
+    font-size: 48px;
+    padding: 15px 0 20px 0;
+}
+
+.mission4 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.mission4 > button{
+    width: 150px;
+    height: 50px;
+    border-color:white;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.flight_test{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;
+    background-image: url(assets/test1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    text-transform: uppercase;
+}
+
+.flight_test p{
+    font-size: 20px;
+}
+
+.flight_test h1{
+    text-align: left;
+    font-size: 48px;
+    padding: 15px 0 20px 0;
+    width: 500px;
+}
+
+.flight_test a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.flight_test > button{
+    width: 150px;
+    height: 50px;
+    border-color:white;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.human{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;
+    background-image: url(assets/human1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    text-transform: uppercase;
+}
+
+
+.human h1{
+    text-align: left;
+    font-size: 48px;
+    padding: 15px 0 20px 0;
+    width: 500px;
+}
+
+.human a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.human > button{
+    width: 150px;
+    height: 50px;
+    border-color:white;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.multiplanetary{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;
+    background-image: url(assets/life1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    text-transform: uppercase;
+}
+
+
+.multiplanetary h1{
+    text-align: left;
+    font-size: 48px;
+    padding: 15px 0 20px 0;
+    width: 500px;
+}
+
+.multiplanetary a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.multiplanetary > button{
+    width: 150px;
+    height: 50px;
+    border-color:white;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    height: 80px;
+    background-color: black;
+    font-family: 'D-Din', sans-serif;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    font-family: 'D-Din', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
