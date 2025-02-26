@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carlos Daniel Tapia">
+    <meta name="description" content="SpaceX Web">
+    <meta name="keywords" content="Tecnología, Espacio, Planetas, Cohetes">
     <title>SpaceX</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.ico">
 </head>
 <body>
-    <header class="ocultar">
+    <video autoplay loop muted playsinline class="background-video">
+        <source src="./assets/Flight_8_Website_Announcement_20250224_1080_P_Website_ab49eb725f.mp4" type="video/mp4">
+    </video>
+    <header>
         <a href="https://www.spacex.com/" class="logoSpaceX">
             <img src="./assets/spacex-logo-black-and-white.png" alt="SpaceX Logo">
         </a>
@@ -23,60 +30,128 @@
                 <li> <a href="https://www.starlink.com/">Starlink</a></li>
             </ul>
         </nav>
-            <div class="menutoggle_shop">
-                <ul>
-                    <li> <a href="https://shop.spacex.com/">Shop</a></li>
-                </ul>
-                <img src="./assets/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png" alt="Menu">
+            <div class="nav">
+                <div class="nav_container">
+                    <a href="https://shop.spacex.com/" id="shop">Shop</a>
+                    <a href="#menu" class="nav_menu">
+                        <img src="./assets/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png" alt="Menu" class="nav_icon">
+                    </a>
+        
+                    <a href="#" class="nav_menu nav_menu--second">
+                        <img src="./assets/x.png" class="nav_icon2 ">
+                    </a>
+        
+                    <ul class="dropdown" id="menu">
+                        <li class="dropdown_list">
+                            <a href="https://www.spacex.com/mission/" class="dropdown_link">
+                                <span class="dropdown_span">Missions</span>
+                            </a>
+                            <a href="https://www.spacex.com/launches/" class="dropdown_link">
+                                <span class="dropdown_span">Launches</span>
+                            </a>
+                            <a href="https://www.spacex.com/careers/" class="dropdown_link">
+                                <span class="dropdown_span">Careers</span>
+                            </a>
+                            <a href="https://www.spacex.com/updates/" class="dropdown_link">
+                                <span class="dropdown_span">Updates</span>
+                            </a>
+                            <a href="https://shop.spacex.com/" class="dropdown_link">
+                                <span class="dropdown_span">Shop</span>
+                            </a>
+                        </li>
+
+                        <li class="dropdown_list2">
+                            <a href="https://www.spacex.com/vehicles/falcon-9/" class="dropdown_link">
+                                <span class="dropdown_span">Falcon 9</span>
+                            </a>
+                            <a href="https://www.spacex.com/vehicles/falcon-heavy/" class="dropdown_link">
+                                <span class="dropdown_span">Falcon Heavy</span>
+                            </a>
+                            <a href="https://www.spacex.com/vehicles/dragon/" class="dropdown_link">
+                                <span class="dropdown_span">Dragon</span>
+                            </a>
+                            <a href="https://www.spacex.com/vehicles/starship/" class="dropdown_link">
+                                <span class="dropdown_span">Starship</span>
+                            </a>
+                            <a href="https://www.spacex.com/humanspaceflight/" class="dropdown_link">
+                                <span class="dropdown_span">Human Spaceflight</span>
+                            </a>
+                            <a href="https://www.spacex.com/rideshare/" class="dropdown_link">
+                                <span class="dropdown_span">Rideshare</span>
+                            </a>
+                            <a href="https://www.spacex.com/starshield/" class="dropdown_link">
+                                <span class="dropdown_span">Starshield</span>
+                            </a>
+                            <a href="https://www.starlink.com/" class="dropdown_link">
+                                <span class="dropdown_span">Starlink</span>
+                            </a>
+                            <a href="https://www.spacex.com/mission/" class="dropdown_link">
+                                <span class="dropdown_span">Mission</span>
+                            </a>
+                            <a href="https://www.spacex.com/launches/" class="dropdown_link">
+                                <span class="dropdown_span">Launches</span>
+                            </a>
+                            <a href="https://www.spacex.com/careers/" class="dropdown_link">
+                                <span class="dropdown_span">Careers</span>
+                            </a>
+                            <a href="https://www.spacex.com/updates/" class="dropdown_link">
+                                <span class="dropdown_span">Updates</span>
+                            </a>
+                            <a href="https://shop.spacex.com/" class="dropdown_link">
+                                <span class="dropdown_span">Shop</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
     </header>
     <section class="mission1">
         <p>Umpcoming Launch</p>
-        <h1>Starlink Mission</h1>
+        <h1>Starship's Eighth Flight Test</h1>
         <a href="https://www.spacex.com/launches/mission/?missionId=sl-15-1" class="Lanzamiento Cohete Video">
-        <button class="button">Watch
+        <button class="button">Learn More</button>
         </a>
-        </button>
     </section>
     <main>
         <section class="mission2">
             <p>Umpcoming Launch</p>
             <h1>Starlink Mission</h1>
             <a href="https://www.spacex.com/launches/mission/?missionId=sl-12-13" class="Lanzamiento Cohete Video">
-                <button class="button">Watch
+                <button class="button">Watch</button>
                 </a>
         </section> 
         <section class="mission3">
             <p>Recent Launch</p>
             <h1>Starlink Mission</h1>
             <a href="https://www.spacex.com/launches/mission/?missionId=sl-12-14" class="Lanzamiento Cohete Video">
-                <button class="button">Watch
+                <button class="button">Watch</button>
                 </a>
         </section>
         <section class="mission4">
             <p>Recent Launch</p>
             <h1>Starlink Mission</h1>
             <a href="https://www.spacex.com/launches/mission/?missionId=sl-10-12" class="Lanzamiento Cohete Video">
-                <button class="button">Watch
+                <button class="button">Watch</button>
                 </a>       
         </section>
         <section class="flight_test">
             <p>Recent Launch</p>
             <h1>Starship's Seventh Flight Test</h1>
             <a href="https://www.spacex.com/launches/mission/?missionId=starship-flight-7" class="Prueba de Vuelo Video">
-                <button class="button">Watch
+                <button class="button">Watch</button>
                 </a>              
         </section>
         <section class="human">
             <h1>Advancing Human Spaceglight</h1>
             <a href="https://www.spacex.com/updates/#eva-suit" class="Avances en Vuelos Humanos">
-                <button class="button">Watch
+                <button class="button">Learn More</button>
                 </a>         
         </section>
         <section class="multiplanetary">
             <h1>To Make Life Multiplanetary</h1>
             <a href="https://www.spacex.com/updates/#make-life-multiplanetary" class="Vida Interplanetaria">
-                <button class="button">Watch
+                <button class="button">Learn More</button>
             </a>         
         </section>
     </main>
